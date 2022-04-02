@@ -2,8 +2,10 @@
 using BinarySearch_BinarysearchRecursive;
 using static BinarySearch_BinarysearchRecursive.delegateTest;
 
+Console.WriteLine("Hello, World!");
 
 
+int[] a1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
 static int linearSearch(int[] a1, int sum)
 {
@@ -18,7 +20,7 @@ static int linearSearch(int[] a1, int sum)
 }
 
 int resultLinear = linearSearch(a1, 10);
-Console.WriteLine(result);
+Console.WriteLine(resultLinear);
 
 
 //Abstrakt klasse
